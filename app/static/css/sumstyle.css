@@ -1,0 +1,14 @@
+
+table{
+  border: 1px solid grey;
+}
+
+table td {
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 25px;
+}
+
+tr:nth-of-type(2n) {
+  background-color: gray;
+}

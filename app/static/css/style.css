@@ -1,0 +1,37 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Calligraffitti);
+@import url(http://fonts.googleapis.com/css?family=Luckiest+Guy);
+
+
+table{
+  border: 9px solid grey;
+  padding: 0px;
+}
+
+table td{
+  padding: 0px;
+  width: 60px;
+  height:60px;
+  background-color: grey;
+  background-size: cover;
+}
+
+table tr:nth-child(2n) td:nth-child(2n), table tr:nth-child(2n-1) td:nth-child(2n-1){
+  background-color: lightblue;
+}
+
+table tr:nth-child(-2n+3) td:nth-child(2n-1), table tr:nth-child(2) td:nth-child(2n){
+  background-image: url(/images/red-circle.png); 
+  
+}
+
+table tr:nth-child(2n+6) td:nth-child(2n), table tr:nth-child(7) td:nth-child(2n-1){
+  background-image: url(/images/black.png); 
+}
+
+
+
+
+
+
+

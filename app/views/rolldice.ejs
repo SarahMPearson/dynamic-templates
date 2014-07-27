@@ -1,0 +1,26 @@
+<!doctype>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Roll Dice</title>
+    <link rel="stylesheet" href="/css/dicestyle.css">
+  </head>
+  <body>
+  <h1>Roll Dice</h1>
+  <div>
+  <table>
+    <% for(var i = 0; i < rolls.length; i++){ %>
+    <tr>
+    <td style="background-image: url('/images/<%= rolls[i] %>.jpg');">
+      </td>
+    <% } %>
+    </tr>
+    <tr>
+      <td id="sum"> <%= sum %> </td>
+    </tr>
+      
+  </table>
+</div>
+  </body>
+</html>
+
